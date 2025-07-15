@@ -25,15 +25,9 @@ This Python-based tool scrapes a Reddit user’s public posts and comments and u
 
 ## Directory Structure
 
-reddit-persona-generator/
-│
-├── data/ # Generated persona files
-│   └── kojied_persona.txt # Example output
-│
-├── persona_generator.py # Main script
-├── .env.example # Template for environment secrets
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+
+<img width="354" height="248" alt="image" src="https://github.com/user-attachments/assets/6a57a1c4-d258-41cd-a087-2a854e8bf839" />
+
 
 
 ---
@@ -47,7 +41,7 @@ git clone https://github.com/aniketjadhav25000/reddit-persona-generator.git
 cd reddit-persona-generator
 pip install -r requirements.txt
 ```
-## How to Run the Program
+### Step 1: Run the Program
 ```bash
 python persona_generator.py --profile https://www.reddit.com/user/kojied/
 ```
