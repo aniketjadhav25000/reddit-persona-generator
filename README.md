@@ -46,3 +46,8 @@ reddit-persona-generator/
 git clone https://github.com/aniketjadhav25000/reddit-persona-generator.git
 cd reddit-persona-generator
 pip install -r requirements.txt
+```
+## How to Run the Program
+```bash
+python persona_generator.py --profile https://www.reddit.com/user/kojied/
+```
